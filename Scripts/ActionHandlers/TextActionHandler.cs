@@ -2,9 +2,9 @@
 
 public class TextActionHandler : GameActionHandler
 {
-	public UnityEvent<string> Event;
+	public new UnityEvent<string> Event;
 
-	protected override void Respond (object obj)
+	protected void Respond (object obj)
 	{
 		Event.Invoke((string) obj);
 	}

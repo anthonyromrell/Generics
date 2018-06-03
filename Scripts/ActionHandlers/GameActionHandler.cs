@@ -6,14 +6,17 @@ using UnityEngine.Events;
 using UnityEngine.Experimental.UIElements;
 
 
-public abstract class GameActionHandler : MonoBehaviour
+public class GameActionHandler : MonoBehaviour
 {
     public GameAction Action;
+    public UnityEvent Event;
     
     private void OnEnable()
     {
-        Action.Call += Respond;
+        Action.CallNoArgs += Respond;
     }
 
-    protected abstract void Respond(object obj);
+    void  Respond() {
+        Event.Invoke();
+    }
 }
