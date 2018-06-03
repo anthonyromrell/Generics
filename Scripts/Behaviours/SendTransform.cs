@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class SendTransform : MonoBehaviour {
+public class SendTransform : MonoBehaviour
+{
+    public GameAction Send;
 
-	public GameAction Send;
-
-	private void Start()
-	{
-		Send.Call(transform);
-	}
+    private void Start()
+    {
+        Send.Call(transform);
+    }
 }

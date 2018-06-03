@@ -1,14 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ClickRunActionBehaviour : MonoBehaviour
 {
+    public GameAction GameAction;
 
-	public GameAction GameAction;
-
-	private void OnMouseDown()
-	{
-		GameAction.Call(transform);
-	}
+    private void OnMouseDown()
+    {
+        GameAction.Call(transform);
+    }
 }

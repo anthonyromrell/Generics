@@ -1,14 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "Object", menuName = "Object/Send And Get Object")]
 public class SendAndGetObject : ScriptableObject
 {
-    public object Object { get; private set; }
-
     public UnityEvent SendObject;
+    public object Object { get; private set; }
 
     private void OnEnable()
     {

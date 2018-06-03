@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-public class ParentObject : MonoBehaviour {
-
-	
+public class ParentObject : MonoBehaviour
+{
 }

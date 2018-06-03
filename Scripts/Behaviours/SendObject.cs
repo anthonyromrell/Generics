@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class SendObject : MonoBehaviour {
+public class SendObject : MonoBehaviour
+{
+    public GameAction Send;
 
-	public GameAction Send;
-
-	private void Start()
-	{
-		//Send.Call();
-	}
+    private void Start()
+    {
+        //Send.Call();
+    }
 }

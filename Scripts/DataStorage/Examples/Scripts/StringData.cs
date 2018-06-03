@@ -4,8 +4,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DataStorage", menuName = "Data Storage/String List")]
 public class StringData : ScriptableObject
 {
-	public string SingleName;
-
-	public List<string> NameList;
-
+    public List<string> NameList;
+    public string SingleName;
 }
