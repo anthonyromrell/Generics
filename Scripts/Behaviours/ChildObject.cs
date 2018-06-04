@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 
-public class ChildObject : MonoBehaviour {
+public class ChildObject : MonoBehaviour
+{
+    public Transform Piece;
 
-	public Transform Piece;
+    private void Awake()
+    {
+        Piece = GetComponentInParent<ParentObject>().transform;
+    }
 
-	private void Awake()
-	{
-		Piece = GetComponentInParent<ParentObject>().transform;
-	}
-
-	private void OnMouseDown()
-	{
-		Piece.position = transform.position;
-	}
+    private void OnMouseDown()
+    {
+        Piece.position = transform.position;
+    }
 }
