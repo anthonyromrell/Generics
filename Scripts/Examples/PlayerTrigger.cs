@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerTrigger : MonoBehaviour
 {
-	public FloatData HealthLevel;
-	public FloatData EvilPower;
+	public FloatBase HealthLevel;
+	public FloatBase EvilPower;
 	
 	// Use this for initialization
 	void Start () {

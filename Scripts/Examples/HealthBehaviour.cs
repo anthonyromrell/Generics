@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HealthBehaviour : MonoBehaviour
 {
-	public FloatData HealthLevel;
+	public FloatBase HealthLevel;
 	private Image HealthImage;
 	
 	// Use this for initialization
