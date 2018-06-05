@@ -9,10 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42760e48b4d8e4bff989c18c5a79a467, type: 3}
-  m_Name: Purchases
+  m_Name: Store
   m_EditorClassIdentifier: 
   Items:
-  - {fileID: 11400000}
-  - {fileID: 243158379835941558, guid: fa00ea734b4d87547a985a1495f6a67b, type: 2}
-  - {fileID: 11400000, guid: 06fab92f895384cbe8a9b9be246854ba, type: 2}
-  - {fileID: 102900000, guid: 23385bef75e994676b8a37f18c90a263, type: 3}
+  - {fileID: 102900000, guid: 3b077840399334b88a044ed200a2d34b, type: 3}
+  - {fileID: 9100000, guid: b656485a54dff4f6a9fd4f3bce2a47a6, type: 2}
