@@ -2,7 +2,6 @@
 
 namespace ArtisanDream.Generics.Scripts.Objects
 {
-    
     [CreateAssetMenu]
     public class Vector3Data: ScriptableObject
     {
