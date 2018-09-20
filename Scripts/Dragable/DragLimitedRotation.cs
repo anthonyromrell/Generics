@@ -13,6 +13,7 @@ public class DragLimitedRotation : DragRotationBase
         switch (CurrentMovement)
         {
             case TransformType.Axis.RotationX:
+                //rotation = transform.localRotation.x;
                 rotation = transform.localEulerAngles.x;
                 break;
             case TransformType.Axis.RotationY:
@@ -33,6 +34,7 @@ public class DragLimitedRotation : DragRotationBase
         switch (CurrentMovement)
         {
             case TransformType.Axis.RotationX:
+                //Vectors.Set(rotation, transform.localRotation.y, transform.localRotation.z);
                 Vectors.Set(rotation, transform.localEulerAngles.y, transform.localEulerAngles.z);
                 break;
             case TransformType.Axis.RotationY:
@@ -44,7 +46,8 @@ public class DragLimitedRotation : DragRotationBase
             case TransformType.Axis.None:
                 break;
         }
-        
-        transform.localEulerAngles = Vectors;
+  //      transform.Rotate(Vector3.left, rotation);
+       transform.localEulerAngles = Vectors;
+       // transform.rotation = Quaternion.Euler(Vectors);
     }
 }
