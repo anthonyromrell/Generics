@@ -48,6 +48,8 @@ public class DragLimitedRotation : DragRotationBase
         }
   //      transform.Rotate(Vector3.left, rotation);
        transform.localEulerAngles = Vectors;
-       // transform.rotation = Quaternion.Euler(Vectors);
+        //transform.rotation = Quaternion.AngleAxis(rotation, transform.right);
+      //transform.rotation = Quaternion.Euler(Vectors);
+   
     }
 }
