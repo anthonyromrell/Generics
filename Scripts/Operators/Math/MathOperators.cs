@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MathOperators : MonoBehaviour {
+public class MathOperators : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public int A;
+	public int B;
+	public int C;
 	
-	// Update is called once per frame
-	void Update () {
-		
+	// Use this for initialization
+	void Start ()
+	{
+		C = A + B;
+		C+=A;
+		C = A - B;
+		C--;
+		C -= A;
+		C = A * B;
+		C *= A;
 	}
 }

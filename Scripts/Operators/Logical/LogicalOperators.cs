@@ -2,15 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LogicalOperators : MonoBehaviour {
+public class LogicalOperators : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public bool LightsOn;
+	public bool CarArrived;
+	
 	
 	// Update is called once per frame
 	void Update () {
 		
+		if (LightsOn && CarArrived)
+		{
+			print("Lights On, Car Arrived.");
+		}
+		
+		if (LightsOn || CarArrived)
+		{
+			print("Lights On or Car Arrived.");
+		}
 	}
 }
