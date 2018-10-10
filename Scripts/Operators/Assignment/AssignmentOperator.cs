@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AssignmentOperator : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
+public class AssignmentOperator : MonoBehaviour
+{
+	private SpriteRenderer Sprite;
 	
-	// Update is called once per frame
-	void Update () {
-		
+	// Use this for initialization
+	void Start ()
+	{
+		Sprite = GetComponent<SpriteRenderer>();
+	}
+
+	private void OnMouseDown()
+	{
+		Sprite.color = Color.green;
 	}
 }
