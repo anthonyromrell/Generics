@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d55e0e8c6e98245d388fbf7b679107a6, type: 3}
   m_Name: Red
   m_EditorClassIdentifier: 
-  ObjectColor: {r: 0, g: 0, b: 1, a: 1}
+  ObjectColor: {r: 1, g: 0, b: 0.11931801, a: 1}
