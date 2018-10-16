@@ -1,16 +1,34 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Conventions : MonoBehaviour {
+public class Conventions : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public float Name;
+    
+    private string Animals;
+
+    void Start()
+    {
+        if (true)
+        {
+            print("Hello World");  
+        }
+
+        while (true)
+        {
+           print("Great Day!"); 
+        }
+
+        foreach (var animal in Animals)
+        {
+            print(Animals);
+        }
+    
+    }
+
+    enum MyEnum
+    {
+      Dog, Fish, Rabbit  
+    }
 }
