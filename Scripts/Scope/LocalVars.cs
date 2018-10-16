@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class LocalVars : MonoBehaviour
 {
-	string Name;
+	string name;
 
 	public void Call()
 	{
-		Name = "Bob";
-		print(Name);
+		name = "Bob";
+		print(name);
 	}
 
 	public void Call(string newName)
 	{
 		print(newName);
-		print(Name);
+		print(name);
 	}
 
 }

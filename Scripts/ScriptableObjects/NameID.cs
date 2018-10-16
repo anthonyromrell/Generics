@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-[CreateAssetMenu]
-public class NameID : ScriptableObject {	
+namespace Basics {
+    [CreateAssetMenu]
+    public class NameId : ScriptableObject {	
+    }
 }

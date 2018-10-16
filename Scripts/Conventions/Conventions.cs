@@ -6,7 +6,7 @@ public class Conventions : MonoBehaviour
 
     public float Name;
     
-    private string Animals;
+    private string animals;
 
     void Start()
     {
@@ -20,9 +20,9 @@ public class Conventions : MonoBehaviour
            print("Great Day!"); 
         }
 
-        foreach (var animal in Animals)
+        foreach (var animal in animals)
         {
-            print(Animals);
+            print(animals);
         }
     
     }

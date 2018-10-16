@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class AssignmentOperator : MonoBehaviour
 {
-	private SpriteRenderer Sprite;
+	private SpriteRenderer sprite;
 	
 	// Use this for initialization
 	void Start ()
 	{
-		Sprite = GetComponent<SpriteRenderer>();
+		sprite = GetComponent<SpriteRenderer>();
 	}
 
 	private void OnMouseDown()
 	{
-		Sprite.color = Color.green;
+		sprite.color = Color.green;
 	}
 }

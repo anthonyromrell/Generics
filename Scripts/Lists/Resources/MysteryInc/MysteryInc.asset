@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3401089545ca141c6864641797aa21ae, type: 3}
-  m_Name: ScoobyDoo
+  m_Name: MysteryInc
   m_EditorClassIdentifier: 
   ObjectList: []
