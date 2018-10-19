@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using Basics;
+using UnityEngine;
 
 //Made By Anthony Romrell
 [CreateAssetMenu(menuName = "Change/Float Value")]
-public class ChangeFloatVAlue : ScriptableObject
+public class ChangeFloatValue : ScriptableObject
 {
 	public FloatData Data;
 	

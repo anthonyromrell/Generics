@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Basics;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class ChangeImageWithUpdate : MonoBehaviour
