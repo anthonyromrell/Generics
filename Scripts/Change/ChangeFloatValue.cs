@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
 //Made By Anthony Romrell
-[CreateAssetMenu]
-public class ChangeValue : ScriptableObject
+[CreateAssetMenu(menuName = "Change/Float Value")]
+public class ChangeFloatVAlue : ScriptableObject
 {
 	public FloatData Data;
 	

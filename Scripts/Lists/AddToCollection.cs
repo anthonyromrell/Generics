@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Objects/Add To Collection")]
 public class AddToCollection : ScriptableObject
 {
-	public ObjectCollection Collection;
+	public ScriptableObjectCollection Collection;
 	
 	public void Call(ScriptableObject obj)
 	{

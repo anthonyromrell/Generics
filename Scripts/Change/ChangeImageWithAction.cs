@@ -3,7 +3,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using Basics;
 
-public class UpdateImageAsBar : MonoBehaviour
+public class ChangeImageWithAction : MonoBehaviour
 {
 	public Image Bar;
 	public GameAction UpdateAction;

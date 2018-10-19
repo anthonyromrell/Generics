@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class UpdateImageValue : MonoBehaviour
+public class ChangeImageWithUpdate : MonoBehaviour
 {
 	public FloatData Data;
 	private Image image;

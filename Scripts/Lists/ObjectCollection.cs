@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class ObjectCollection : ScriptableObject
+[CreateAssetMenu(menuName = "Objects/ScriptableObject Collection")]
+public class ScriptableObjectCollection : ScriptableObject
 {
 	public List<ScriptableObject> ObjectList;
 }
