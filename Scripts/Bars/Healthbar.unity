@@ -360,7 +360,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 2b4ab72c3328d4c989e6fdc522ef4d4b, type: 2}
-        m_MethodName: RaiseFloat
+        m_MethodName: OnRaise
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
