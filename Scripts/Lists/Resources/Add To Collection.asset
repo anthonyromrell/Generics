@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ac9c2be0c2e48d4b20671e7a81e156, type: 3}
   m_Name: Add To Collection
   m_EditorClassIdentifier: 
-  Collection: {fileID: 0}
+  Collection: {fileID: 11400000, guid: 6a61e4cb0bdf144a79c72b8faa40c66c, type: 2}

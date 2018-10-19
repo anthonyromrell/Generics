@@ -11,4 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3401089545ca141c6864641797aa21ae, type: 3}
   m_Name: MysteryInc
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 11400000, guid: 2fa80909f658c40a0b7fe691a8c24d02, type: 2}
+  - {fileID: 11400000, guid: 22540b96dd3494a768694e0434b28c97, type: 2}
+  - {fileID: 11400000, guid: 5ff7a93e49954405698e36121d8bc0a7, type: 2}
+  - {fileID: 11400000, guid: 0b42ff6566b364efc9100266aa3c91d2, type: 2}

@@ -11,4 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3401089545ca141c6864641797aa21ae, type: 3}
   m_Name: TWDvsVillans
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 11400000, guid: 2178bec42973447beb1a6b60b6948325, type: 2}
+  - {fileID: 11400000, guid: 2b2c2fa78a94e46d080cc79d4624614c, type: 2}
