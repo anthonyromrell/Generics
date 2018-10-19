@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+﻿using Basics;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-using Basics;
 
 public class ChangeImageWithAction : MonoBehaviour
 {
