@@ -1,33 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.Events;
 using UnityEngine;
-using UnityEngine.Events;
 
-public class SwitchStatements : MonoBehaviour
-{
+[CreateAssetMenu]
+public class StateMachine : ScriptableObject {
+
 	public GameStates.States GameState;
 	public UnityEvent Starting, Loading, Playing, Ending, Dying;
 	
 	// Update is called once per frame
-	void Update () {
+	public void Run () {
 		
 		switch (GameState)
 		{
 			case GameStates.States.Starting:
-				print("We are starting the Game");
+				Starting.Invoke();
 				break;
 			
 			case GameStates.States.Loading:
-				print("We are loading the Game");
+				//print("We are loading the Game");
 				break;
 			
 			case GameStates.States.Playing:
-				print("We are playing the Game");
+				//print("We are playing the Game");
 				break;
 			
 			case GameStates.States.Ending:
-				print("We are ending the Game");
+				//print("We are ending the Game");
 				break;
 		}
 	}
+	
 }
